@@ -36,5 +36,7 @@ This project intends to explain an overview of Azure Managed Identities, how to 
 
 ## contact
 Name: Arockiadoss Jesudoss
-GitHub: @your-username
-Linkedin:
+GitHub: @ynoelaanzi
+Linkedin: www.linkedin.com/in/arockiadoss-4756a4145
+YouTube: https://www.youtube.com/@IT-SkilL-MasteR
+
