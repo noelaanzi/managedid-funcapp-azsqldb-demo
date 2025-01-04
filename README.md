@@ -5,11 +5,10 @@ Azure Managed Identity
 
 ## Table of Contents
 1. [About](#about)
-. [Getting Started](#getting-started)
-4. [Usage](#usage)
-5. [Contributing](#contributing)
-6. [License](#license)
-7. [Contact](#contact)
+2. [Getting Started](#getting-started)
+3. [Usage](#usage)
+4. [Contributing](#contributing)
+5. [Contact](#contact)
 
 
 ## About
@@ -34,3 +33,8 @@ This project intends to explain an overview of Azure Managed Identities, how to 
       - 
 - Azure SQL Database
  -  Create table & insert data
+
+## contact
+Name: Arockiadoss Jesudoss
+GitHub: @your-username
+Linkedin:
