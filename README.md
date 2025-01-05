@@ -86,9 +86,11 @@ This project intends to explain an overview of Azure Managed Identity, how to ac
   - Navigate to the Azure Function and test it from portal
   - Get the Function URL from Azure portal and test it from Postman
     
-## contact
+## Contact
 - Name: Arockiadoss Jesudoss
 - GitHub: @ynoelaanzi
 - Linkedin: www.linkedin.com/in/arockiadoss-4756a4145
 - YouTube: https://www.youtube.com/@IT-SkilL-MasteR
+- Facebook: https://www.facebook.com/Arockiadoss.sna/
+- Instagram : https://www.instagram.com/arockiadoss_sna/?hl=en
 
