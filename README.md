@@ -69,9 +69,9 @@ This project intends to explain an overview of Azure Managed Identity, how to ac
   - Connect to your SQL DB
   - Run below SQL commands
     - Replace  [YourFunctionAppName] with the name of your Function App
-      - CREATE USER [YourFunctionAppName] FROM EXTERNAL PROVIDER;
-      - ALTER ROLE db_datareader ADD MEMBER [YourFunctionAppName];
-      - ALTER ROLE db_datawriter ADD MEMBER [YourFunctionAppName];
+      CREATE USER [YourFunctionAppName] FROM EXTERNAL PROVIDER;
+      ALTER ROLE db_datareader ADD MEMBER [YourFunctionAppName];
+      ALTER ROLE db_datawriter ADD MEMBER [YourFunctionAppName];
 ### 4
 - Deploy Azure function to Azure Function App
 - Open the project in VS code which you cloned in [ ### Prerequisites, #### 1.3 ]
