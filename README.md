@@ -23,9 +23,10 @@ This project intends to explain an overview of Azure Managed Identity, how to ac
   - Install Azure Functions Core Tools in VS code
 #### 1.2  
 - Git Installed
+  - Dwonload Link: https://git-scm.com/downloads
 #### 1.3
 - Clone the repository to local
-  - git clone
+  - git clone https://github.com/noelaanzi/managedid-funcapp-azsqldb-demo.git
 
 ### Steps
 ### 1
