@@ -1,18 +1,13 @@
 # Project Name
 Azure Managed Identity
 
-
-
 ## Table of Contents
 1. [About](#about)
 2. [Getting Started](#getting-started)
-3. [Usage](#usage)
-4. [Contributing](#contributing)
-5. [Contact](#contact)
-
+3. [Contact](#contact)
 
 ## About
-This project intends to explain an overview of Azure Managed Identities, how to access Azure SQL database from Azure function app using Node.js program  
+This project intends to explain an overview of Azure Managed Identity, how to access Azure SQL database from Azure function app using Node.js program  
 
 ## Getting Started
 ### Prerequisites
@@ -68,12 +63,26 @@ This project intends to explain an overview of Azure Managed Identities, how to 
   - Add below environment variables
     - DB_SERVER_NAME:<Your DB Server Name> 
     - DB_NAME: <Your DB Name>
- #### 2.1
- - Clone the repository:
-    - Use bash shell
-      - git clone
-      - 
-
+### 3
+- Grant SQL DB Access to Managed Identity
+  - Connect to your SQL DB
+  - Run below SQL commands
+    - Replace  [YourFunctionAppName] with the name of your Function App
+      - CREATE USER [YourFunctionAppName] FROM EXTERNAL PROVIDER;
+      - ALTER ROLE db_datareader ADD MEMBER [YourFunctionAppName];
+      - ALTER ROLE db_datawriter ADD MEMBER [YourFunctionAppName];
+### 4
+- Deploy Azure function to Azure Function App
+- Open the project in VS code which you cloned in [ ### Prerequisites, #### 1.3 ]
+- Deploy the function to Azure Function App created in [ ### Steps, ### 2 ]
+- For creating & deploying Azure Function App please watch the video from below link:
+  - https://youtu.be/kVO6KkDwKRg
+### 5
+- Test Azure Function
+  - Input pass query parameter id=<value> e.g. id=1 
+  - Navigate to the Azure Function and test it from portal
+  - Get the Function URL from Azure portal and test it from Postman
+    
 ## contact
 Name: Arockiadoss Jesudoss
 GitHub: @ynoelaanzi
