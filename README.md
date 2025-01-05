@@ -62,8 +62,8 @@ This project intends to explain an overview of Azure Managed Identity, how to ac
   - Function App Name: managedid-funcapp-demo
   - Follow the configuration setting as instructed in the demo
   - Add below environment variables
-    - DB_SERVER_NAME:<Your DB Server Name> 
-    - DB_NAME: <Your DB Name>
+    - DB_SERVER_NAME:<YourDBServerName> 
+    - DB_NAME: <YourDBName>
 ### 3
 - Grant SQL DB Access to Managed Identity
   - Connect to your SQL DB
@@ -82,7 +82,7 @@ This project intends to explain an overview of Azure Managed Identity, how to ac
   - https://youtu.be/kVO6KkDwKRg
 ### 5
 - Test Azure Function
-  - Input pass query parameter id=<value> e.g. id=1 
+  - Input -> pass query parameter id=<value> e.g. id=1 
   - Navigate to the Azure Function and test it from portal
   - Get the Function URL from Azure portal and test it from Postman
     
