@@ -87,8 +87,8 @@ This project intends to explain an overview of Azure Managed Identity, how to ac
   - Get the Function URL from Azure portal and test it from Postman
     
 ## contact
-Name: Arockiadoss Jesudoss
-GitHub: @ynoelaanzi
-Linkedin: www.linkedin.com/in/arockiadoss-4756a4145
-YouTube: https://www.youtube.com/@IT-SkilL-MasteR
+- Name: Arockiadoss Jesudoss
+- GitHub: @ynoelaanzi
+- Linkedin: www.linkedin.com/in/arockiadoss-4756a4145
+- YouTube: https://www.youtube.com/@IT-SkilL-MasteR
 
