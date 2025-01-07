@@ -17,14 +17,17 @@ This project intends to explain an overview of Azure Managed Identity, how to ac
 - Microsoft Enta ID – User
   - Privileges for creating and managing Azure Function App, Azure SQL Database
 ### 1.1
-- Visual Studio Code Installed on Local computer
+- Visual Studio Code Installation on Local computer
   - https://code.visualstudio.com/download
   - Install Azure Functions extension in VS code
   - Install Azure Functions Core Tools in VS code
 #### 1.2  
-- Git Installed
+- Git Installation
   - Dwonload Link: https://git-scm.com/downloads
 #### 1.3
+- Postman Installation
+  - Download Link: https://www.postman.com/downloads/
+#### 1.4
 - Clone the repository to local
   - git clone https://github.com/noelaanzi/managedid-funcapp-azsqldb-demo.git
 
@@ -32,8 +35,8 @@ This project intends to explain an overview of Azure Managed Identity, how to ac
 ### 1
 - Azure SQL Database
   - Create Azure SQL Database from Azure portal
-    - Database Name: <Your DB Server Name>   
-    - Database Server Name: <Your DB Name>
+    - Database Name: <YourDBServerName>   
+    - Database Server Name: <YourDBName>
  #### 2.1 
     - Create table & insert data
            CREATE TABLE Customers
@@ -76,7 +79,7 @@ This project intends to explain an overview of Azure Managed Identity, how to ac
         
 ### 4
 - Deploy Azure function to Azure Function App
-- Open the project in VS code which you cloned in [ ### Prerequisites, #### 1.3 ]
+- Open the project in VS code which you cloned in [ ### Prerequisites, #### 1.4
 - Deploy the function to Azure Function App created in [ ### Steps, ### 2 ]
 - For creating & deploying Azure Function App please watch the video from below link:
   - https://youtu.be/kVO6KkDwKRg
