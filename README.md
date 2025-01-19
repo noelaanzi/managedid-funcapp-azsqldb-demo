@@ -91,10 +91,10 @@ This project intends to explain an overview of Azure Managed Identity, how to ac
     
 ## Contact
 - Name: Arockiadoss Jesudoss
-- GitHub: @ynoelaanzi
+- GitHub: https://github.com/noelaanzi
 - Linkedin: www.linkedin.com/in/arockiadoss-4756a4145
 - YouTube: https://www.youtube.com/@IT-SkilL-MasteR
-- Docker Hub: https://hub.docker.com/u/dkrarockiadoss
+- Docker Hub:https://hub.docker.com/u/dkrarockiadoss
 - Facebook: https://www.facebook.com/Arockiadoss.sna/
 - Instagram : https://www.instagram.com/arockiadoss_sna/?hl=en
 
